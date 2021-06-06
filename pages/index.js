@@ -9,6 +9,11 @@ export default function Home() {
     <div>
       <Head>
         <title> Weather App  </title>
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" >
+        </meta>
+
+
+        
       </Head>
       <Weather />
     </div>

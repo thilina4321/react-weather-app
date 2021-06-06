@@ -17,7 +17,9 @@ const Weather = () => {
     fetch(
       `http://api.openweathermap.org/data/2.5/weather?q=${city}
       &appid=5db59f1bb0d6e4217a0e045a40049082
-      `
+      `,{
+        
+      }
     )
       .then((res) => {
         setloading(false)
